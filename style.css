@@ -644,36 +644,58 @@ MOBILE RESPONSIVE (TABLET + PHONE)
 }
 
 /* =========================
-HAMBURGER MENU
+NAV BASE
 ========================= */
 
+.nav{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:28px;
+  padding:12px;
+  background:#141414;
+  position:relative;
+}
+
+/* HAMBURGER */
 .menu-toggle{
   display:none;
-  font-size:1.5rem;
+  font-size:1.6rem;
   cursor:pointer;
   color:#fff;
 }
 
-/* MOBILE */
+/* NAV LINKS */
+.nav-links{
+  display:flex;
+  gap:28px;
+}
+
+/* =========================
+MOBILE NAV
+========================= */
+
 @media (max-width:600px){
 
   .nav{
-    display:flex;
     flex-direction:column;
     align-items:center;
   }
 
   .menu-toggle{
     display:block;
-    margin-bottom:10px;
+    position:absolute;
+    right:20px;
+    top:15px; /* 🔥 puts it top-right */
   }
 
   .nav-links{
     display:none;
     flex-direction:column;
-    gap:15px;
+    gap:18px;
     width:100%;
     text-align:center;
+    margin-top:20px;
   }
 
   .nav-links.active{
@@ -682,5 +704,6 @@ HAMBURGER MENU
 
   .nav a{
     font-size:0.9rem;
+    padding:6px 0;
   }
 }
