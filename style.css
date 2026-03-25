@@ -233,7 +233,7 @@ footer a:hover {
 
 footer {
   padding: 20px;
-  font-size: 0.85rem;
+  font-size: inherit; /* 🔥 THIS IS THE FIX */
   color: #888888;
   border-top: 1px solid #2a2a2a;
   text-align: center;
@@ -595,7 +595,10 @@ NVRSLF FINAL FOOTER (ALIGNED + CLEAN)
   margin-top:30px;
   border-top:1px solid #222;
   padding-top:12px;
-  font-size:0.6rem !important; /* 🔥 FORCE IT */
   color:#555;
   letter-spacing:0.08em;
+}
+
+.footer-bottom p{
+  font-size:0.6rem;
 }
