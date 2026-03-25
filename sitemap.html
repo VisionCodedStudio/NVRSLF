@@ -2,60 +2,79 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+
   <meta name="description" content="Site Map for NVRSLF website.">
   <meta name="keywords" content="NVRSLF sitemap, site navigation, page index">
   <meta name="author" content="Vision Coded Studio">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Site Map | NVRSLF</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
 
-<header>
-  <h1>NVRSLF</h1>
-  <p class="tagline">Never Self-Limit.</p>
-</header>
+  <!-- HEADER -->
+  <header>
+    <h1>NVRSLF</h1>
+    <p class="tagline">Never Self-Limit.</p>
+  </header>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="pages/about.html">About</a>
-  <a href="pages/products.html">Products</a>
-  <a href="pages/gallery.html">Gallery</a>
-  <a href="pages/contact.html">Contact</a>
-  <a href="sitemap.html">Site Map</a>
-  <a href="#" class="cart-icon">🛒</a>
-</nav>
+  <!-- NAV (🔥 UPDATED) -->
+  <nav class="nav">
 
-<main>
-  <section class="page-center">
-    <h2>Site Map</h2>
-    <p>Complete index of all NVRSLF pages.</p>
+    <!-- HAMBURGER -->
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fa-solid fa-bars"></i>
+    </div>
 
-    <ul class="sitemap-list">
-      <li><a href="index.html">NVRSLF Home</a></li>
-      <li><a href="pages/about.html">About</a></li>
-      <li><a href="pages/products.html">Products</a></li>
-      <li><a href="pages/gallery.html">Gallery</a></li>
-      <li><a href="pages/contact.html">Contact</a></li>
-    </ul>
+    <!-- LINKS -->
+    <div class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="pages/about.html">About</a>
+      <a href="pages/products.html">Products</a>
+      <a href="pages/gallery.html">Gallery</a>
+      <a href="pages/contact.html">Contact</a>
+      <a href="sitemap.html">Site Map</a>
+      <a href="#" class="cart-icon">🛒</a>
+    </div>
 
-  </section>
-</main>
+  </nav>
 
-<!-- ================= FOOTER ================= -->
+  <!-- MAIN -->
+  <main>
+    <section class="page-center">
+
+      <h2>Site Map</h2>
+      <p>Complete index of all NVRSLF pages.</p>
+
+      <ul class="sitemap-list">
+        <li><a href="index.html">NVRSLF Home</a></li>
+        <li><a href="pages/about.html">About</a></li>
+        <li><a href="pages/products.html">Products</a></li>
+        <li><a href="pages/gallery.html">Gallery</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
+
+    </section>
+  </main>
+
+  <!-- FOOTER -->
   <footer class="footer">
 
     <div class="footer-container">
 
-      <!-- BRAND -->
       <div class="footer-col">
         <h3>NVRSLF</h3>
         <p>Never Self-Limit. Performance tech built for creators and grinders.</p>
       </div>
 
-      <!-- EXPLORE -->
       <div class="footer-col">
         <h4>Explore</h4>
         <a href="index.html">Home</a>
@@ -65,7 +84,6 @@
         <a href="pages/contact.html">Contact</a>
       </div>
 
-      <!-- RESOURCES -->
       <div class="footer-col">
         <h4>Resources</h4>
         <a href="#">Privacy Policy</a>
@@ -73,23 +91,18 @@
         <a href="#">Support</a>
       </div>
 
-      <!-- CONTACT -->
       <div class="footer-col">
         <h4>Contact</h4>
-
         <a href="mailto:contact@nvrslf.com">
           <i class="fa-solid fa-envelope"></i> contact@nvrslf.com
         </a>
-
         <a href="https://www.google.com/maps?q=Los+Angeles+CA" target="_blank">
           <i class="fa-solid fa-location-dot"></i> Los Angeles, CA
         </a>
       </div>
 
-      <!-- SOCIAL -->
       <div class="footer-col">
         <h4>Social</h4>
-
         <div class="social-icons">
           <a href="#"><i class="fa-brands fa-instagram"></i></a>
           <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
@@ -99,12 +112,14 @@
 
     </div>
 
-    <!-- BOTTOM BAR -->
     <div class="footer-bottom">
       <p>© 2026 NVRSLF. All Rights Reserved.</p>
     </div>
 
   </footer>
+
+  <!-- JS (🔥 REQUIRED FOR HAMBURGER) -->
+  <script src="script.js"></script>
 
 </body>
 </html>
