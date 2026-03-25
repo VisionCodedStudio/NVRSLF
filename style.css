@@ -563,3 +563,21 @@ NVRSLF ADVANCED FOOTER (UPGRADE)
 .footer-col a:hover i{
   color:#fff;
 }
+
+/* SOCIAL ICON ROW */
+.social-icons{
+  display:flex;
+  gap:18px;
+  margin-top:10px;
+}
+
+.social-icons a{
+  font-size:18px;
+  color:#ccc;
+  transition:0.3s ease;
+}
+
+.social-icons a:hover{
+  color:#FF5B00;
+  transform:translateY(-3px);
+}
