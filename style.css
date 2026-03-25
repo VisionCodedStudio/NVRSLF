@@ -707,3 +707,22 @@ MOBILE NAV
     padding:6px 0;
   }
 }
+
+/* =========================
+PRODUCT MOBILE FIX
+========================= */
+
+@media (max-width: 768px){
+  .products-container{
+    grid-template-columns: 1fr; /* 🔥 STACK */
+    gap: 30px;
+  }
+
+  .product-card{
+    padding: 40px 25px;
+  }
+
+  .product-image{
+    height: 180px;
+  }
+}
