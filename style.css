@@ -552,3 +552,14 @@ NVRSLF ADVANCED FOOTER (UPGRADE)
   color:#666;
   letter-spacing:0.1em;
 }
+
+/* ICON STYLING */
+.footer-col i{
+  margin-right:10px;
+  color:#FF5B00;
+  width:18px;
+}
+
+.footer-col a:hover i{
+  color:#fff;
+}
