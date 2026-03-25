@@ -487,100 +487,97 @@ form input[type="submit"]:hover {
 .sitemap-list a:hover {
   color: #FF5B00;
 }
-
 /* ==================================================
-NVRSLF ADVANCED FOOTER (UPGRADE)
+NVRSLF FINAL FOOTER (CLEAN + BALANCED)
 ================================================== */
 
 .footer{
   background:#0a0a0a;
   color:#fff;
-  padding:50px 20px 20px; /* less tall */
+  padding:50px 20px 20px;
+  text-align:left; /* 🔥 fixes weird centering */
 }
 
 .footer-container{
-  max-width:1000px;
+  max-width:1100px;
   margin:0 auto;
   display:grid;
-  grid-template-columns:1.3fr 1fr 1fr 1fr 0.7fr;
-  gap:40px; /* more breathing room */
+  grid-template-columns:1.6fr 1fr 1fr 1fr 0.8fr;
+  gap:35px;
   align-items:start;
 }
 
+/* HEADINGS */
 .footer-col h3{
-  font-size:1.3rem;
+  font-size:1.2rem;
+  margin-bottom:12px;
 }
 
 .footer-col h4{
-  font-size:0.8rem;
+  font-size:0.75rem;
+  margin-bottom:12px;
+  color:#FF5B00;
+  letter-spacing:0.15em;
 }
 
-.footer-col a,
+/* TEXT + LINKS */
 .footer-col p{
   font-size:0.8rem;
+  color:#aaa;
+  line-height:1.5;
+  margin:0;
 }
 
 .footer-col a{
-  display:block;
+  display:flex;
+  align-items:center;
+  gap:8px;
   text-decoration:none;
   color:#ccc;
-  margin-bottom:10px;
-  font-size:0.85rem;
-  letter-spacing:0.08em;
+  margin-bottom:8px;
+  font-size:0.8rem;
   transition:0.3s ease;
 }
 
 .footer-col a:hover{
   color:#FF5B00;
-  transform:translateX(3px);
 }
 
-.footer-bottom{
-  text-align:center;
-  margin-top:40px;
-  border-top:1px solid #222;
-  padding-top:15px;
-  font-size:0.75rem;
-  color:#666;
-  letter-spacing:0.1em;
-}
-
-.footer-col:first-child{
-  max-width:260px;
-}
-
-/* ICON STYLING */
+/* ICONS */
 .footer-col i{
-  margin-right:10px;
   color:#FF5B00;
-  width:18px;
+  font-size:14px;
+  width:16px;
 }
 
 .footer-col a:hover i{
   color:#fff;
 }
 
+/* SOCIAL */
 .social-icons{
   display:flex;
   gap:14px;
-  align-items:center;
   margin-top:8px;
 }
 
 .social-icons a{
-  font-size:18px;
+  font-size:16px;
   color:#ccc;
   transition:0.3s ease;
 }
 
 .social-icons a:hover{
   color:#FF5B00;
-  transform:translateY(-3px);
+  transform:translateY(-2px);
 }
 
-/* FIX SOCIAL COLUMN ALIGNMENT */
-.footer-col{
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
+/* BOTTOM BAR */
+.footer-bottom{
+  text-align:center;
+  margin-top:30px;
+  border-top:1px solid #222;
+  padding-top:12px;
+  font-size:0.7rem;
+  color:#666;
 }
