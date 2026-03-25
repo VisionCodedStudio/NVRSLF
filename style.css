@@ -487,3 +487,68 @@ form input[type="submit"]:hover {
 .sitemap-list a:hover {
   color: #FF5B00;
 }
+
+/* ==================================================
+NVRSLF ADVANCED FOOTER (UPGRADE)
+================================================== */
+
+.footer{
+  background:#0a0a0a;
+  color:#fff;
+  padding:70px 20px 25px;
+  border-top:1px solid #2a2a2a;
+}
+
+.footer-container{
+  max-width:1200px;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(220px,1fr));
+  gap:40px;
+}
+
+.footer-col h3{
+  font-size:1.6rem;
+  margin-bottom:15px;
+  letter-spacing:0.2em;
+}
+
+.footer-col h4{
+  font-size:0.9rem;
+  margin-bottom:15px;
+  color:#FF5B00;
+  letter-spacing:0.2em;
+}
+
+.footer-col p{
+  font-size:0.85rem;
+  color:#aaa;
+  line-height:1.6;
+  max-width:100%;
+  margin:0;
+}
+
+.footer-col a{
+  display:block;
+  text-decoration:none;
+  color:#ccc;
+  margin-bottom:10px;
+  font-size:0.85rem;
+  letter-spacing:0.08em;
+  transition:0.3s ease;
+}
+
+.footer-col a:hover{
+  color:#FF5B00;
+  transform:translateX(3px);
+}
+
+.footer-bottom{
+  text-align:center;
+  margin-top:40px;
+  border-top:1px solid #222;
+  padding-top:15px;
+  font-size:0.75rem;
+  color:#666;
+  letter-spacing:0.1em;
+}
