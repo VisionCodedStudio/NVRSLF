@@ -503,7 +503,7 @@ NVRSLF ADVANCED FOOTER (UPGRADE)
   max-width:1200px;
   margin:0 auto;
   display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(220px,1fr));
+  grid-template-columns:repeat(5, 1fr);
   gap:40px;
 }
 
@@ -564,7 +564,6 @@ NVRSLF ADVANCED FOOTER (UPGRADE)
   color:#fff;
 }
 
-/* SOCIAL ICON ROW */
 .social-icons{
   display:flex;
   gap:18px;
@@ -580,4 +579,11 @@ NVRSLF ADVANCED FOOTER (UPGRADE)
 .social-icons a:hover{
   color:#FF5B00;
   transform:translateY(-3px);
+}
+
+/* FIX SOCIAL COLUMN ALIGNMENT */
+.footer-col{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
 }
