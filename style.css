@@ -403,9 +403,11 @@ footer {
 .products h3{
   text-align:center;
   width:100%;
+  margin-top:0;        /* 🔥 ADD THIS LINE */
   margin-bottom:50px;
   letter-spacing:0.08em;
 }
+
 .product-image {
   height: 240px;
   border-radius: 12px;
