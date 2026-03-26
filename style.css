@@ -236,6 +236,10 @@ main {
   background: #ff6a1a;
 }
 
+.hero-content{
+  margin-top:-40px;
+}
+
 /* ───────── CONTENT PANEL (ABOUT / CONTACT) ───────── */
 
 .page-center {
