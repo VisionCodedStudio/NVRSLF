@@ -167,9 +167,10 @@ main {
   flex: 1;
   padding: 40px 20px;
 
-  display: block; /* ✅ FIX */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 🔥 THIS BRINGS EVERYTHING BACK */
 }
-
 /* =========================
 🔥 HERO SECTION (FINAL CLEAN)
 ========================= */
