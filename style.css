@@ -252,6 +252,10 @@ main {
   max-width:600px;
   margin:0 auto;
 }
+
+.mini-section h3{
+  margin-top:0;
+}
 /* ───────── CONTENT PANEL (ABOUT / CONTACT) ───────── */
 
 .page-center {
