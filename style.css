@@ -243,6 +243,15 @@ main {
   margin-top:-40px;
 }
 
+.mini-section{
+  padding:100px 20px;
+  text-align:center;
+}
+
+.mini-section p{
+  max-width:600px;
+  margin:0 auto;
+}
 /* ───────── CONTENT PANEL (ABOUT / CONTACT) ───────── */
 
 .page-center {
