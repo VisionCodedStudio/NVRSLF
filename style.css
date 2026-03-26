@@ -187,7 +187,7 @@ main {
   content:"";
   position:absolute;
   inset:0;
-  background:rgba(0,0,0,0.65);
+  background:rgba(0,0,0,0.55);
   z-index:1;
 }
 
@@ -205,6 +205,10 @@ main {
 .hero h2{
   font-size:2.6rem;
   letter-spacing:0.03em;
+}
+
+.hero p{
+  margin-bottom:12px;
 }
 
 .hero-sub {
@@ -236,6 +240,14 @@ main {
   border-radius:6px;
   letter-spacing:1px;
   transition: 0.3s ease;
+}
+
+.hero-cta input,
+.hero-cta button{
+  width:65%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .hero-cta button:hover {
