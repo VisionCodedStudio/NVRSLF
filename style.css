@@ -165,13 +165,11 @@ header h1 {
 
 main {
   flex: 1;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   padding: 40px 20px;
+
+  display: block; /* 🔥 THIS FIXES EVERYTHING */
 }
+
 /* =========================
 🔥 HERO SECTION (FINAL CLEAN)
 ========================= */
