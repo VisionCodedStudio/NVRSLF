@@ -131,25 +131,34 @@ header h1 {
 
 /* ───────── NAVIGATION ───────── */
 
-nav {
-  background-color: #141414;
-  padding: 12px;
+.nav{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:40px;
+  padding:18px 0;
 
-  display: flex;
-  justify-content: center;
-  gap: 28px;
+  position:sticky;
+  top:0;
+  z-index:1000;
+
+  background:rgba(0,0,0,0.6);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid rgba(255,255,255,0.05);
 }
 
-nav a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 0.9rem;
-  letter-spacing: 0.15em;
+/* LINKS */
+.nav a{
+  color:#ccc;
+  text-decoration:none;
+  font-size:0.9rem;
+  letter-spacing:0.15em;
+  transition:0.3s;
 }
 
-nav a:hover {
-  color: #FF5B00;
-  opacity: 1;
+.nav a:hover{
+  color:#FF5B00;
 }
 
 /* ───────── MAIN ───────── */
