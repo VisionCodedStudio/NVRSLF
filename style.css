@@ -746,16 +746,6 @@ MOBILE RESPONSIVE (TABLET + PHONE)
 NAV BASE
 ========================= */
 
-.nav{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  gap:28px;
-  padding:12px;
-  background:#141414;
-  position:relative;
-}
-
 /* HAMBURGER */
 .menu-toggle{
   display:none;
