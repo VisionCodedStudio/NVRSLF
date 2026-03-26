@@ -167,7 +167,7 @@ main {
   flex: 1;
   padding: 40px 20px;
 
-  display: block; /* 🔥 THIS FIXES EVERYTHING */
+  display: block; /* ✅ FIX */
 }
 
 /* =========================
