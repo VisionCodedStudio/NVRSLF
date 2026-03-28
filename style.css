@@ -167,6 +167,7 @@ main {
   flex: 1;
   padding: 0;
 }
+
 /* =========================
 🔥 HERO SECTION (FINAL CLEAN)
 ========================= */
@@ -821,6 +822,10 @@ PRODUCT MOBILE FIX
   .product-image{
     height: 180px;
   }
+
+/* 🔥 GLOBAL CENTER FIX */
+main > section {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
-
-
