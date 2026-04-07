@@ -975,20 +975,21 @@ VIDEO SECTION (HOME PAGE)
 }
 
 /* =========================
-ABOUT PAGE LIST FIX
+FORCE CENTER LIST (ABOUT PAGE)
 ========================= */
 
 .page-center ul {
-  list-style: none; /* remove ugly left bullets */
-  padding: 0;
-  margin: 20px auto;
-  text-align: center;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 20px auto !important;
+  text-align: center !important;
 }
 
 .page-center ul li {
   margin: 10px 0;
 }
 
+/* optional clean bullet style */
 .page-center ul li::before {
   content: "• ";
   color: #ff5b00;
