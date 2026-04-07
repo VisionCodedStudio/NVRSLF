@@ -16,18 +16,25 @@ if (toggle && navLinks) {
 const faders = document.querySelectorAll('.fade-up');
 
 const appearOptions = {
-  threshold: 0.2
+  threshold: 0.1
 };
 
 const appearOnScroll = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
-    if (!entry.isIntersecting) return;
-
-    entry.target.classList.add('show');
-    observer.unobserve(entry.target);
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+      observer.unobserve(entry.target);
+    }
   });
 }, appearOptions);
 
 faders.forEach(fader => {
   appearOnScroll.observe(fader);
+});
+
+// 🔥 FORCE HERO TO SHOW ON LOAD
+window.addEventListener("load", () => {
+  document.querySelectorAll('.hero .fade-up').forEach(el => {
+    el.classList.add('show');
+  });
 });
