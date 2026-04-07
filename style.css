@@ -1022,8 +1022,10 @@ FINAL VIDEO SECTION (LOCKED)
 
 .video-section video {
   width: 100%;
-  max-width: 650px;
+  max-width: 600px;   /* 🔥 controls width */
+  aspect-ratio: 16 / 9; /* 🔥 keeps proper shape */
   border-radius: 12px;
+  object-fit: cover;
 }
 
 /* 🔥 tighten section above */
