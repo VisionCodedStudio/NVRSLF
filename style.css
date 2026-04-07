@@ -94,10 +94,8 @@ h3::after {
 p {
   font-size: 1rem;
   color: #cccccc;
-  max-width: 650px;
-  margin: 0 auto 18px auto;
+  margin-bottom: 18px;
 }
-
 
 /* ───────── HEADER ───────── */
 
@@ -264,9 +262,10 @@ main {
 /* ───────── CONTENT PANEL (ABOUT / CONTACT) ───────── */
 
 .page-center {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px;
+  max-width: 900px;
+  width: 100%;
+  margin: 40px auto;
+  padding: 50px 40px;
   background-color: #141414;
   border-radius: 6px;
 }
