@@ -976,6 +976,7 @@ FORCE CENTER LIST (ABOUT PAGE)
   content: "• ";
   color: #ff5b00;
 }
+
 /* =========================
 HOME SECTION SPACING FIX
 ========================= */
@@ -1005,29 +1006,28 @@ HOME SECTION FIX (REAL FIX)
 }
 
 /* =========================
-FINAL VIDEO + SPACING FIX
+FINAL VIDEO SECTION (LOCKED)
 ========================= */
 
 .video-section {
   text-align: center;
-  padding: 40px 20px 80px;
+  padding: 20px 20px 40px;
+  margin-top: -60px; /* 🔥 THIS is the real fix */
 }
 
 .video-section h3 {
-  margin-top: 0 !important; /* 🔥 overrides global 60px */
-  margin-bottom: 20px;
+  margin-top: 0 !important;
+  margin-bottom: 15px;
 }
 
 .video-section video {
   width: 100%;
-  max-width: 700px;
+  max-width: 650px;
   border-radius: 12px;
 }
 
+/* 🔥 tighten section above */
 .mini-section {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-.mini-section h3 {
-  margin-top: 0;
-}
