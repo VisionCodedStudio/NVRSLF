@@ -888,3 +888,9 @@ h2 {
   margin-top: 10px;
   margin-bottom: 50px;
 }
+
+/* 🔥 FORCE CENTER GALLERY TEXT */
+.products h2,
+.products .gallery-sub {
+  text-align: center;
+}
