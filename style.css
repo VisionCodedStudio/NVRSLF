@@ -72,10 +72,10 @@ h3 {
   margin-top: 60px;
   margin-bottom: 20px;
 
-  display: block;        /* 🔥 ADD THIS */
-  text-align: center;      /* 🔥 ADD THIS */
+  display: block;           /* 🔥 FULL WIDTH */
+  text-align: center;       /* 🔥 CENTER TEXT */
+  position: relative;
 }
-
 /* Orange Accent Line Under h3 */
 h3 {
   position: relative;
