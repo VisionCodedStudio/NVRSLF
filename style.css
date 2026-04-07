@@ -357,8 +357,9 @@ footer {
 ================================ */
 
 .products {
-  padding: 40px 8%;   /* was 100px ❌ */
-  margin-top: 0;      /* remove extra push */
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 40px;
 }
 
 .products-container {
