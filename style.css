@@ -973,3 +973,18 @@ VIDEO SECTION (HOME PAGE)
   max-width: 900px; /* 🔥 bigger, more premium look */
   border-radius: 12px;
 }
+
+/* =========================
+ABOUT PAGE LIST FIX
+========================= */
+
+.page-center ul {
+  list-style: none; /* remove ugly left bullets */
+  padding: 0;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.page-center ul li {
+  margin: 10px 0;
+}
