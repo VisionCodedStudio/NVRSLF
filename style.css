@@ -988,3 +988,8 @@ ABOUT PAGE LIST FIX
 .page-center ul li {
   margin: 10px 0;
 }
+
+.page-center ul li::before {
+  content: "• ";
+  color: #ff5b00;
+}
