@@ -48,5 +48,5 @@ window.addEventListener('scroll', () => {
   if (!hero) return;
 
   let scrollY = window.scrollY;
-  hero.style.backgroundPositionY = `${scrollY * 0.3}px`;
+hero.style.backgroundPositionY = `${scrollY * 0.1}px`;
 });
