@@ -47,8 +47,8 @@ h2 {
   margin-bottom: 10px;
   position: relative;
 
-  display: block;        /* 🔥 CHANGE THIS */
-  text-align: left;      /* 🔥 ADD THIS */
+  display: block;
+  text-align: center; /* 🔥 CHANGE THIS */
 }
 
 h2::after {
