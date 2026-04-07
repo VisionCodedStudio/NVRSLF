@@ -961,7 +961,7 @@ VIDEO SECTION (HOME PAGE)
 
 .video-section {
   text-align: center;
-  padding: 60px 20px;
+  padding: 100px 20px; /* 🔥 more breathing room */
 }
 
 .video-section h3 {
@@ -969,7 +969,7 @@ VIDEO SECTION (HOME PAGE)
 }
 
 .video-section video {
-  max-width: 800px;
   width: 100%;
+  max-width: 900px; /* 🔥 bigger, more premium look */
   border-radius: 12px;
 }
