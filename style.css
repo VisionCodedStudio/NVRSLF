@@ -956,24 +956,6 @@ h2 {
   box-shadow: 0 20px 40px rgba(0,0,0,0.5);
 }
 
-/* =========================
-VIDEO SECTION (HOME PAGE)
-========================= */
-
-.video-section {
-  text-align: center;
-  padding: 100px 20px; /* 🔥 more breathing room */
-}
-
-.video-section h3 {
-  margin-bottom: 20px;
-}
-
-.video-section video {
-  width: 100%;
-  max-width: 700px; /* 🔥 smaller = cleaner */
-  border-radius: 12px;
-}
 
 /* =========================
 FORCE CENTER LIST (ABOUT PAGE)
@@ -989,13 +971,11 @@ FORCE CENTER LIST (ABOUT PAGE)
 .page-center ul li {
   margin: 10px 0;
 }
-
 /* optional clean bullet style */
 .page-center ul li::before {
   content: "• ";
   color: #ff5b00;
 }
-
 /* =========================
 HOME SECTION SPACING FIX
 ========================= */
@@ -1006,4 +986,48 @@ HOME SECTION SPACING FIX
 
 .video-section {
   padding-top: 40px;   /* 🔥 reduce gap */
+}
+
+/* =========================
+HOME SECTION FIX (REAL FIX)
+========================= */
+
+.mini-section h3 {
+  margin-top: 0; /* 🔥 remove extra space */
+}
+
+.video-section h3 {
+  margin-top: 20px; /* 🔥 small controlled space */
+}
+
+.video-section {
+  padding-top: 20px; /* 🔥 tighten gap */
+}
+
+/* =========================
+FINAL VIDEO + SPACING FIX
+========================= */
+
+.video-section {
+  text-align: center;
+  padding: 40px 20px 80px;
+}
+
+.video-section h3 {
+  margin-top: 0 !important; /* 🔥 overrides global 60px */
+  margin-bottom: 20px;
+}
+
+.video-section video {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 12px;
+}
+
+.mini-section {
+  margin-bottom: 20px;
+}
+
+.mini-section h3 {
+  margin-top: 0;
 }
