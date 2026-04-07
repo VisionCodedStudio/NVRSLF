@@ -46,7 +46,9 @@ h2 {
   font-size: 2.2rem;
   margin-bottom: 10px;
   position: relative;
-  display: inline-block;
+
+  display: block;        /* 🔥 CHANGE THIS */
+  text-align: left;      /* 🔥 ADD THIS */
 }
 
 h2::after {
@@ -69,6 +71,9 @@ h2::after {
 h3 {
   margin-top: 60px;
   margin-bottom: 20px;
+
+  display: block;        /* 🔥 ADD THIS */
+  text-align: left;      /* 🔥 ADD THIS */
 }
 
 /* Orange Accent Line Under h3 */
