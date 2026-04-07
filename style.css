@@ -173,14 +173,18 @@ main {
 🔥 HERO SECTION (FINAL CLEAN)
 ========================= */
 
-.hero{
+.hero {
   min-height: 100vh;
-  background:url("images/hero.jpg") center/cover no-repeat;
-  position:relative;
 
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  background: url("images/hero.jpg") no-repeat;
+  background-size: cover;
+  background-position: center 35%;
+
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero::after{
