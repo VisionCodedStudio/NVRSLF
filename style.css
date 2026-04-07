@@ -172,7 +172,7 @@ main {
 }
 
 /* 🔥 GLOBAL CENTER FIX (CORRECTED) */
-main > section {
+main > section:not(.hero) {
   max-width: 1100px;
   margin: 0 auto;
   padding: 60px 20px;
