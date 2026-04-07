@@ -909,3 +909,44 @@ h2 {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* =========================
+🔥 HERO ENTRY ANIMATION
+========================= */
+
+.hero-content {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: heroFade 1s ease forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes heroFade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+/* =========================
+🔥 HOME PAGE MOTION
+========================= */
+
+/* CTA BUTTON GLOW */
+.hero-cta button {
+  transition: all 0.3s ease;
+}
+
+.hero-cta button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(255, 91, 0, 0.5);
+}
+
+/* CARD HOVER LIFT */
+.product-card {
+  transition: all 0.35s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
