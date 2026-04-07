@@ -971,7 +971,7 @@ VIDEO SECTION (HOME PAGE)
 
 .video-section video {
   width: 100%;
-  max-width: 900px; /* 🔥 bigger, more premium look */
+  max-width: 700px; /* 🔥 smaller = cleaner */
   border-radius: 12px;
 }
 
@@ -994,4 +994,16 @@ FORCE CENTER LIST (ABOUT PAGE)
 .page-center ul li::before {
   content: "• ";
   color: #ff5b00;
+}
+
+/* =========================
+HOME SECTION SPACING FIX
+========================= */
+
+.mini-section {
+  margin-bottom: 40px;
+}
+
+.video-section {
+  padding-top: 40px;   /* 🔥 reduce gap */
 }
