@@ -73,7 +73,7 @@ h3 {
   margin-bottom: 20px;
 
   display: block;        /* 🔥 ADD THIS */
-  text-align: left;      /* 🔥 ADD THIS */
+  text-align: center;      /* 🔥 ADD THIS */
 }
 
 /* Orange Accent Line Under h3 */
@@ -267,14 +267,15 @@ main {
 /* ───────── CONTENT PANEL (ABOUT / CONTACT) ───────── */
 
 .page-center {
-  max-width: 1100px;  /* 🔥 MATCH EVERYTHING ELSE */
+  max-width: 1100px;
   width: 100%;
   margin: 40px auto;
   padding: 50px 40px;
   background-color: #141414;
   border-radius: 6px;
-}
 
+  text-align: center; /* 🔥 keep this */
+}
 /* ───────── CONTACT CENTER ───────── */
 
 main.contact-center {
