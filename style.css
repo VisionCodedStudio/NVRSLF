@@ -803,7 +803,7 @@ PRODUCT MOBILE FIX
 
 @media (max-width: 768px){
   .products-container{
-    grid-template-columns: 1fr; /* 🔥 STACK */
+    grid-template-columns: 1fr;
     gap: 30px;
   }
 
@@ -814,6 +814,12 @@ PRODUCT MOBILE FIX
   .product-image{
     height: 180px;
   }
+} /* 🔥 CLOSE MEDIA QUERY RIGHT HERE */
+
+
+/* =========================
+ANIMATION
+========================= */
 
 @keyframes fadeUp {
   from {
