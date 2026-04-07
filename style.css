@@ -795,6 +795,17 @@ MOBILE NAV
 }
 
 /* =========================
+GLOBAL SECTION CENTER FIX
+========================= */
+
+main > section:not(.hero):not(.products):not(.page-center) {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* =========================
 PRODUCT MOBILE FIX
 ========================= */
 
