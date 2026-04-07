@@ -267,7 +267,7 @@ main {
 /* ───────── CONTENT PANEL (ABOUT / CONTACT) ───────── */
 
 .page-center {
-  max-width: 900px;
+  max-width: 1100px;  /* 🔥 MATCH EVERYTHING ELSE */
   width: 100%;
   margin: 40px auto;
   padding: 50px 40px;
