@@ -1012,7 +1012,7 @@ FINAL VIDEO SECTION (LOCKED)
 .video-section {
   text-align: center;
   padding: 20px 20px 40px;
-  margin-top: -60px; /* 🔥 THIS is the real fix */
+  margin-top: -60px;
 }
 
 .video-section h3 {
@@ -1022,14 +1022,14 @@ FINAL VIDEO SECTION (LOCKED)
 
 .video-section video {
   width: 100%;
-  max-width: 600px;   /* 🔥 controls width */
-  aspect-ratio: 16 / 9; /* 🔥 keeps proper shape */
+  max-width: 600px;
+  aspect-ratio: 16 / 9;
   border-radius: 12px;
   object-fit: cover;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.7); /* 🔥 moved here */
 }
 
 /* 🔥 tighten section above */
 .mini-section {
   margin-bottom: 10px;
 }
-
