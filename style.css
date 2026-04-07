@@ -839,3 +839,57 @@ ANIMATION
     transform: translateY(0);
   }
 }
+
+
+/* =========================
+🔥 PREMIUM UPGRADE
+========================= */
+
+main > section {
+  margin-top: 80px;
+}
+
+.hero + section {
+  margin-top: 100px;
+}
+
+/* Typography Upgrade */
+p {
+  font-size: 1.05rem;
+  color: #bfbfbf;
+  margin-bottom: 18px;
+  line-height: 1.8;
+}
+
+h2 {
+  font-size: 2.4rem;
+  letter-spacing: 0.04em;
+}
+
+/* Hero Glow */
+.hero h2 {
+  text-shadow: 0 0 25px rgba(255, 91, 0, 0.25);
+}
+
+/* Image Hover */
+.product-card img {
+  transition: 0.4s ease;
+}
+
+.product-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Card Depth */
+.product-card {
+  background: linear-gradient(145deg, #141414, #0f0f0f);
+}
+
+/* Subtitle Style */
+.gallery-sub {
+  color: #888;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
