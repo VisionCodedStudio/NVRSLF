@@ -76,11 +76,6 @@ h3 {
   text-align: center;       /* 🔥 CENTER TEXT */
   position: relative;
 }
-/* Orange Accent Line Under h3 */
-h3 {
-  position: relative;
-  display: inline-block;
-}
 
 h3::after {
   content: "";
@@ -797,16 +792,6 @@ MOBILE NAV
     font-size:0.9rem;
     padding:6px 0;
   }
-}
-/* =========================
-HOME SECTION FIX (BUILT FOR FOCUS)
-========================= */
-
-.hero + section {
-  max-width: 1100px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 40px 20px;
 }
 
 /* =========================
