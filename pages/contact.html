@@ -59,23 +59,32 @@
         developing its first product releases.
       </p>
 
+      <!-- 🔥 CLEAN FORM -->
       <form action="#" method="post">
 
-        <input type="text" name="fullname" placeholder="Full Name" required>
+        <!-- TEXT -->
+        <label>Full Name:</label>
+        <input type="text" name="fullname" required>
 
-        <input type="text" name="company" placeholder="Company / Brand (if applicable)">
+        <!-- TEXT -->
+        <label>Company / Brand:</label>
+        <input type="text" name="company">
 
-        <input type="email" name="email" placeholder="Email Address" required>
+        <!-- EMAIL -->
+        <label>Email Address:</label>
+        <input type="email" name="email" required>
 
+        <!-- SELECT -->
         <label>Inquiry Type:</label>
         <select name="inquiry">
-          <option value="business">Business Inquiry</option>
-          <option value="partnership">Partnership</option>
-          <option value="media">Media / Press</option>
-          <option value="collab">Collaboration</option>
-          <option value="general">General Question</option>
+          <option>Business Inquiry</option>
+          <option>Partnership</option>
+          <option>Media / Press</option>
+          <option>Collaboration</option>
+          <option>General Question</option>
         </select>
 
+        <!-- RADIO -->
         <label>Area of Focus:</label>
         <div>
           <input type="radio" name="focus" value="creative"> Creative
@@ -83,13 +92,17 @@
           <input type="radio" name="focus" value="operations"> Operations
         </div>
 
+        <!-- CHECKBOX -->
         <div>
           <input type="checkbox" name="updates">
           Keep me updated on product releases
         </div>
 
-        <textarea name="message" rows="4" placeholder="Describe your inquiry..."></textarea>
+        <!-- TEXTAREA -->
+        <label>Message:</label>
+        <textarea name="message" rows="4"></textarea>
 
+        <!-- SUBMIT -->
         <input type="submit" value="Send Inquiry">
 
       </form>
