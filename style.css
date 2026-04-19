@@ -363,10 +363,10 @@ footer {
 }
 
 .products-container {
-  max-width: 1200px;
+  max-width: 900px; /* tighter so cards center */
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr); /* 🔥 THIS FIXES IT */
   gap: 60px;
 }
 
