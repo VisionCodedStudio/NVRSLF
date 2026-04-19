@@ -426,7 +426,16 @@ footer {
 
 .product-img {
   width: 100%;
-  height: auto;        /* ← THIS is the key */
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
   border-radius: 12px;
   margin-bottom: 20px;
   display: block;
