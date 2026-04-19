@@ -1058,20 +1058,52 @@ FINAL VIDEO SECTION (LOCKED)
   box-shadow: 0 20px 50px rgba(0,0,0,0.7); /* 🔥 moved here */
 }
 
-/* 🔥 tighten section above */
-.mini-section {
-  margin-bottom: 10px;
+/* ===== REAL GALLERY SLIDER ===== */
+
+.gallery-wrapper {
+  position: relative;
+  max-width: 900px;
+  margin: 40px auto;
+  overflow: hidden;
 }
 
-/* GALLERY (horizontal scroll) */
-.gallery-container {
+.gallery-track {
   display: flex;
-  gap: 40px;
-  overflow-x: auto;
-  padding: 20px;
+  transition: transform 0.5s ease;
 }
 
-.gallery-container .product-card {
-  min-width: 320px;
-  flex: 0 0 auto;
+.gallery-item {
+  min-width: 100%;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* buttons */
+.gallery-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.6);
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.gallery-btn.prev {
+  left: 10px;
+}
+
+.gallery-btn.next {
+  right: 10px;
+}
+
+.gallery-btn:hover {
+  background: #FF5B00;
 }
