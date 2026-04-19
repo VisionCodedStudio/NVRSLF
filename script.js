@@ -50,3 +50,27 @@ window.addEventListener('scroll', () => {
   let scrollY = window.scrollY;
 hero.style.backgroundPositionY = `${scrollY * 0.1}px`;
 });
+
+const track = document.getElementById("galleryTrack");
+const nextBtn = document.querySelector(".next");
+const prevBtn = document.querySelector(".prev");
+
+let index = 0;
+
+nextBtn.addEventListener("click", () => {
+  if (index < track.children.length - 1) {
+    index++;
+    updateSlide();
+  }
+});
+
+prevBtn.addEventListener("click", () => {
+  if (index > 0) {
+    index--;
+    updateSlide();
+  }
+});
+
+function updateSlide() {
+  track.style.transform = `translateX(-${index * 100}%)`;
+}
