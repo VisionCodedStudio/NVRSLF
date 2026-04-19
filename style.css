@@ -414,7 +414,8 @@ footer {
 
 .product-img {
   width: 100%;
-  height: auto;
+  max-height: 220px;   /* 🔥 controls size */
+  object-fit: cover;   /* 🔥 keeps it clean */
   border-radius: 12px;
   margin-bottom: 20px;
   display: block;
