@@ -28,7 +28,6 @@
 
   <!-- NAV -->
   <nav class="nav">
-
     <div class="menu-toggle" id="menu-toggle">
       <i class="fa-solid fa-bars"></i>
     </div>
@@ -42,47 +41,42 @@
       <a href="../sitemap.html">Site Map</a>
       <a href="#" class="cart-icon">🛒</a>
     </div>
-
   </nav>
 
   <!-- MAIN -->
   <main>
 
-    <!-- ✅ CLEAN GALLERY SECTION -->
-    <section class="gallery">
+    <section class="gallery-section">
 
       <h2>Performance Gallery</h2>
-
       <p class="gallery-sub">
         Precision setups engineered for focus and execution.
       </p>
 
-      <!-- 🔥 HORIZONTAL SCROLL -->
-      <div class="gallery-container">
+      <div class="gallery-wrapper">
 
-        <!-- IMAGE 1 -->
-        <div class="product-card">
-          <img src="../images/nvrslf-core-kit.jpg" alt="Core Setup" class="gallery-img">
-          <h3>Core Setup</h3>
-          <div class="accent"></div>
-          <p>Complete performance system designed for focus and execution.</p>
+        <!-- LEFT BUTTON -->
+        <button class="gallery-btn prev">&#10094;</button>
+
+        <!-- SLIDER -->
+        <div class="gallery-track" id="galleryTrack">
+
+          <div class="gallery-item">
+            <img src="../images/nvrslf-core-kit.jpg" alt="Core Setup">
+          </div>
+
+          <div class="gallery-item">
+            <img src="../images/nvrslf-core-kit-close.jpg" alt="Precision Detail">
+          </div>
+
+          <div class="gallery-item">
+            <img src="../images/keyboard.jpg" alt="Performance Keyboard">
+          </div>
+
         </div>
 
-        <!-- IMAGE 2 -->
-        <div class="product-card">
-          <img src="../images/nvrslf-core-kit-close.jpg" alt="Precision Detail" class="gallery-img">
-          <h3>Precision Detail</h3>
-          <div class="accent"></div>
-          <p>Refined materials engineered for control and durability.</p>
-        </div>
-
-        <!-- IMAGE 3 -->
-        <div class="product-card">
-          <img src="../images/keyboard.jpg" alt="Performance Keyboard" class="gallery-img">
-          <h3>Performance Keyboard</h3>
-          <div class="accent"></div>
-          <p>Built for speed, precision, and disciplined workflows.</p>
-        </div>
+        <!-- RIGHT BUTTON -->
+        <button class="gallery-btn next">&#10095;</button>
 
       </div>
 
@@ -143,7 +137,6 @@
 
   </footer>
 
-  <!-- JS -->
   <script src="../script.js"></script>
 
 </body>
