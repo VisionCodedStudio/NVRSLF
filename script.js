@@ -52,25 +52,30 @@ hero.style.backgroundPositionY = `${scrollY * 0.1}px`;
 });
 
 const track = document.getElementById("galleryTrack");
+const items = document.querySelectorAll(".gallery-item");
 const nextBtn = document.querySelector(".next");
 const prevBtn = document.querySelector(".prev");
 
 let index = 0;
 
-nextBtn.addEventListener("click", () => {
-  if (index < track.children.length - 1) {
-    index++;
-    updateSlide();
-  }
-});
-
-prevBtn.addEventListener("click", () => {
-  if (index > 0) {
-    index--;
-    updateSlide();
-  }
-});
-
-function updateSlide() {
+function updateSlider() {
   track.style.transform = `translateX(-${index * 100}%)`;
 }
+
+// 👉 NEXT BUTTON
+nextBtn.addEventListener("click", () => {
+  index++;
+  if (index >= items.length) {
+    index = 0; // loop back to start
+  }
+  updateSlider();
+});
+
+// 👉 PREV BUTTON
+prevBtn.addEventListener("click", () => {
+  index--;
+  if (index < 0) {
+    index = items.length - 1; // loop to last image
+  }
+  updateSlider();
+});
