@@ -414,9 +414,9 @@ footer {
 
 .product-img {
   width: 100%;
-  height: auto;        /* 🔥 LET IMAGE SCALE NATURALLY */
+  height: 220px;          /* forces horizontal shape */
+  object-fit: cover;      /* crops image instead of stretching */
   border-radius: 12px;
-  margin-bottom: 20px;
   display: block;
 }
 
