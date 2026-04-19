@@ -366,8 +366,20 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 60px;
+}
+
+@media (max-width: 900px) {
+  .products-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .products-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 .product-card {
