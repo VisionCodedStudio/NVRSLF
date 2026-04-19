@@ -1062,3 +1062,16 @@ FINAL VIDEO SECTION (LOCKED)
 .mini-section {
   margin-bottom: 10px;
 }
+
+/* GALLERY (horizontal scroll) */
+.gallery-container {
+  display: flex;
+  gap: 40px;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.gallery-container .product-card {
+  min-width: 320px;
+  flex: 0 0 auto;
+}
